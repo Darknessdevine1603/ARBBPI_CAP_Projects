@@ -1,0 +1,10 @@
+<cXML timestamp="..."
+    payloadID="..."><Header><From><Credential domain="NetworkID"><Identity /></Credential></From><To><Credential domain="NetworkID"><Identity /></Credential></To><Sender><Credential domain="NetworkID"><Identity /></Credential><UserAgent>Ariba_Supplier</UserAgent></Sender></Header><Request deploymentMode="test"><ShipNoticeRequest><ShipNoticeHeader deliveryDate="2021-06-09T10:00:00+05:30"
+        shipmentDate="2021-06-08T22:00:00+05:30"
+        noticeDate="2021-05-31T16:44:54+05:30"
+        operation="new"
+        shipmentID="ASN_80000635"><Contact role="shipFrom"><Name xml:lang="de">Shipping Point 1010 - Address Name</Name><PostalAddress><Street>Dietmar-Hopp-Allee 16</Street><City>Walldorf</City><PostalCode>69190</PostalCode><Country isoCountryCode="DE">DE</Country></PostalAddress></Contact><Contact addressID="1010"
+            role="shipTo"><Name xml:lang="">Plant 1010 - Address Name 1</Name><PostalAddress><Street>Dietmar-Hopp-Allee 16</Street><City>Walldorf</City><PostalCode>69190</PostalCode><Country isoCountryCode="">DE</Country></PostalAddress></Contact></ShipNoticeHeader><ShipNoticePortion><OrderReference orderID="4500005735"><DocumentReference payloadID="" /></OrderReference><ShipNoticeItem shipNoticeLineNumber="10"
+                lineNumber="10"
+                quantity="7.0"><ItemID><SupplierPartID>TG12</SupplierPartID><BuyerPartID>SP001</BuyerPartID></ItemID><ShipNoticeItemDetail><Description xml:lang="">MacBook - Laptop</Description><UnitOfMeasure>PCE</UnitOfMeasure></ShipNoticeItemDetail><UnitOfMeasure>PCE</UnitOfMeasure><Batch productionDate="2021-05-31"
+                    expirationDate="2022-05-31"><SupplierBatchID>Batch</SupplierBatchID></Batch></ShipNoticeItem></ShipNoticePortion></ShipNoticeRequest></Request></cXML>

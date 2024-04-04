@@ -1,0 +1,9 @@
+<cXML payloadID=""
+    timestamp="..."><Header><From><Credential domain="NetworkID"><Identity>AN02004578867-T</Identity></Credential></From><To><Credential domain="NetworkID"><Identity>AN02004835624-T</Identity></Credential></To><Sender><Credential domain="NetworkID"><Identity>AN01000000087</Identity></Credential><UserAgent>Ariba Supplier</UserAgent></Sender></Header><Request deploymentMode="test"><ConfirmationRequest><ConfirmationHeader confirmID="RIT_OC_EANCOM_01_QA"
+                operation="new"
+                type="reject"
+                noticeDate="2018-02-28T16:30:00"><Total><Money currency="EUR">10.00</Money><Modifications><Modification><AdditionalCost><Money currency="EUR">10.00</Money></AdditionalCost><ModificationDetail name="Handling"><Description xml:lang="en">Description Handling-Charge-Description-1Tracking ID Handling-Charge-Description-2</Description></ModificationDetail></Modification></Modifications></Total><Contact role="shipTo"
+                    addressID="9377779197790"
+                    addressIDDomain="EAN"><Name xml:lang="en" /></Contact><Contact role="supplierCorporate"
+                    addressID="9335520000003"
+                    addressIDDomain="EAN"><Name xml:lang="en" /></Contact><Extrinsic name="RejectionReasonComments">TEXT1</Extrinsic><Extrinsic name="RejectionReason">duplicateOrder</Extrinsic></ConfirmationHeader><OrderReference orderID="eancomOrder3141913"><DocumentReference payloadID="" /></OrderReference></ConfirmationRequest></Request></cXML>

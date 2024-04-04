@@ -1,0 +1,11 @@
+<cXML payloadID=""
+    timestamp="..."><Header><From><Credential domain="NetworkID"><Identity>AN02004417465-T</Identity></Credential></From><To><Credential domain="NetworkID"><Identity>AN02004417464-T</Identity></Credential></To><Sender><Credential domain="NetworkID"><Identity>AN01000000087</Identity><SharedSecret /></Credential><UserAgent>Ariba Supplier</UserAgent></Sender></Header><Request deploymentMode="production"><ReceiptRequest><ReceiptRequestHeader receiptID="Receipt ID"
+                receiptDate="2021-02-04T12:39:31+00:00"
+                operation="update"><ShipNoticeIDInfo shipNoticeID="ASN ID"
+                    shipNoticeDate="2021-02-04T10:39:31+00:00" /><Extrinsic name="headerExtrinsic">Header Extrinsic</Extrinsic></ReceiptRequestHeader><ReceiptOrder closeForReceiving="yes"><ReceiptOrderInfo><OrderReference orderID="ORDER ID 2"
+                        orderDate="2021-02-04T12:39:31+00:00"><DocumentReference payloadID="" /></OrderReference><MasterAgreementReference agreementID="Agreement ID 2"
+                        agreementDate="2021-02-04T10:39:31+00:00"><DocumentReference payloadID="" /></MasterAgreementReference></ReceiptOrderInfo><ReceiptItem receiptLineNumber="3"
+                    quantity="300"
+                    type="received"><ReceiptItemReference lineNumber=""><ItemID><SupplierPartID /><IdReference identifier="30"
+                                domain="EAN-13" /></ItemID><Description xml:lang="EN">Item 3 PID</Description><ShipNoticeIDInfo shipNoticeID="ASN ID 1"
+                            shipNoticeDate="2021-02-04T10:00:01+00:00" /></ReceiptItemReference><UnitRate><Money currency="USD">30</Money><UnitOfMeasure>EA</UnitOfMeasure></UnitRate><ReceivedAmount><Money currency="USD">9000</Money></ReceivedAmount><DeliveryAddress><Address addressID="AdressID 3"><Name xml:lang="en">N1 Name 3</Name></Address></DeliveryAddress></ReceiptItem></ReceiptOrder><Total><Money currency="USD">14000</Money></Total></ReceiptRequest></Request></cXML>

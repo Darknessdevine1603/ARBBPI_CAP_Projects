@@ -1,0 +1,80 @@
+<n0:OrderConfRequest xmlns:n0="http://sap.com/xi/EDI">
+    <MessageHeader>
+        <ID>1645757879341-1085618560192330014</ID>
+        <ReferenceID>OC113904_1</ReferenceID>
+        <CreationDateTime>2022-02-24T18:57:59-08:00</CreationDateTime>
+        <SenderBusinessSystemID>ARIBA_NETWORK</SenderBusinessSystemID>
+        <SenderParty>
+            <InternalID>100000</InternalID>
+        </SenderParty>
+        <BusinessScope>
+            <TypeCode/>
+            <InstanceID schemeID="1645757879341-1085618560192330014@10.163.193.142"/>
+        </BusinessScope>
+    </MessageHeader>
+    <OrderConfirmation>
+        <PurchaseOrderID>4500361565</PurchaseOrderID>
+        <SalesOrderID>OC361565_1</SalesOrderID>
+        <TransactionCurrency>USD</TransactionCurrency>
+        <ItemListIsCompletelyTransferred>true</ItemListIsCompletelyTransferred>
+        <Party PartyType="SoldTo">
+            <SupplierPartyID>100000</SupplierPartyID>
+        </Party>
+        <Text Type="SupplierComments">
+            <TextElementLanguage>en-MX</TextElementLanguage>
+            <TextElementText>Header comments 1 The oldest classical British and Latin writing had
+                little or no space between words and could be written in boustrophedon (alternating
+                directions). Over time, text direction (left to right) became standardized, and word
+                dividers and terminal punctuation became common. The first way to divide sentences
+                into groups was the original paragraphs, similar to an underscore at the beginning
+                of the new group.[2] The Greek parágraphos evolved into the pilcrow (¶), which in
+                English manuscripts in the Middle Ages can be seen inserted inline between
+                sentences. The hedera leaf (e.g. ☙) has also been used in the same way. Indented
+                paragraphs demonstrated in the US Constitution. In ancient manuscripts, another mean
+                to divide sentences into paragraphs was a line break (newline) followed by an
+                initial at the beginning of the next paragraph. An initial is an oversized capital
+                letter, sometimes outdented beyond the margin of the text. This style can be seen,
+                for example, in the original Old English manuscript of Beowulf. Outdenting is still
+                used in English typography, though not commonly.[3] Modern English typography
+                usually indicates a new paragraph by indenting the first line. This style can be
+                seen in the (handwritten) United States Constitution from 1787. For additional
+                ornamentation, a hedera leaf or other symbol can be added to the inter-paragraph
+                white space, or put in the indentation space A second common modern English style is
+                to use no indenting, but add vertical white space to create "block paragraphs." On a
+                typewriter, a double carriage return produces a blank line for this purpose;
+                professional typesetters (or word processing software) may put in an arbitrary
+                vertical space by adjusting leading. This style is very common in electronic
+                formats, such as on the World Wide Web and email. Wikipedia itself employs this
+                format. </TextElementText>
+        </Text>
+        <Item>
+            <PurchaseOrderItemID>10</PurchaseOrderItemID>
+            <OrderItemText>Line 10</OrderItemText>
+            <RequestedQuantity unitCode="FT">120.000</RequestedQuantity>
+            <NetPrice>
+                <Amount currencyCode="USD">13.25</Amount>
+                <BaseQuantity unitCode="FT">1</BaseQuantity>
+            </NetPrice>
+            <ScheduleLine>
+                <ConfirmedDeliveryDate>2022-02-24</ConfirmedDeliveryDate>
+                <ConfirmedDeliveryDateTime>2022-02-24T22:30:00-08:00</ConfirmedDeliveryDateTime>
+                <ConfirmedOrderQuantityByMaterialAvailableCheck unitCode="FT"
+                    >10</ConfirmedOrderQuantityByMaterialAvailableCheck>
+            </ScheduleLine>
+            <ScheduleLine>
+                <ConfirmedDeliveryDate>2022-02-25</ConfirmedDeliveryDate>
+                <ConfirmedDeliveryDateTime>2022-02-25T22:30:00-08:00</ConfirmedDeliveryDateTime>
+                <ConfirmedOrderQuantityByMaterialAvailableCheck unitCode="FT"
+                    >5</ConfirmedOrderQuantityByMaterialAvailableCheck>
+            </ScheduleLine>
+            <Text Type="SupplierComments">
+                <TextElementLanguage>en-MX</TextElementLanguage>
+                <TextElementText>OC item comments 1</TextElementText>
+            </Text>
+            <Text Type="SupplierComments">
+                <TextElementLanguage>en-MX</TextElementLanguage>
+                <TextElementText>OC item comments 2</TextElementText>
+            </Text>
+        </Item>
+    </OrderConfirmation>
+</n0:OrderConfRequest>

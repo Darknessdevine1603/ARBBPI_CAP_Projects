@@ -1,0 +1,1 @@
+<urn:ServiceSheetAsyncResponsePullRequest xmlns:urn="urn:Ariba:Buyer:vsap" partition="prealm_140" variant="vrealm_140"><urn:ServiceSheet_ServiceSheetIDImport_Item><urn:item><urn:UniqueName>SS856</urn:UniqueName><urn:ERPServiceSheetID>1000704170</urn:ERPServiceSheetID></urn:item></urn:ServiceSheet_ServiceSheetIDImport_Item></urn:ServiceSheetAsyncResponsePullRequest>

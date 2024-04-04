@@ -1,0 +1,4 @@
+<cXML timestamp="..."
+    payloadID="92419.PO.EANCOMNFL3"><Header><From><Credential domain="NetworkID"><Identity>AN02004383878-T</Identity></Credential></From><To><Credential domain="NetworkID"><Identity>AN02004383879-T</Identity></Credential></To><Sender><Credential domain="NetworkID"><Identity>AN01000000087</Identity></Credential><UserAgent>Ariba Supplier</UserAgent></Sender></Header><Request deploymentMode="production"><StatusUpdateRequest><DocumentReference payloadID="" /><Status text="Failed"
+                code="400">Negative CONTRL received. Syntax version or level not supported</Status><IntegrationStatus documentStatus="customerFailed"><IntegrationMessage isSuccessful="no"
+                    type="CONTRL" /></IntegrationStatus></StatusUpdateRequest></Request></cXML>

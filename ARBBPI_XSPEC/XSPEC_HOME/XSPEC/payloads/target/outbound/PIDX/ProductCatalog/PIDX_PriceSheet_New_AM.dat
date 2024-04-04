@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?><cXML payloadID="..."
+      timestamp="..."
+      version="..."
+      xml:lang="..."><Header><From><Credential domain="NetworkID"><Identity>AN02005757093-T</Identity></Credential></From><To><Credential domain="NetworkID"><Identity>AN02005757092-T</Identity></Credential></To><Sender><Credential domain="NetworkID"><Identity>AN01000000087</Identity><SharedSecret/></Credential><Credential domain="EndPointID"><Identity>cig_cert_eu</Identity></Credential><UserAgent>Ariba SN Buyer Adapter</UserAgent></Sender></Header><Request><CatalogUploadRequest operation="new"><CatalogName xml:lang="en">CATALOGDEMO_new.cif</CatalogName><Description xml:lang="en"> Catalog version 3.0 </Description><Attachment><URL>cid:5958a9fe-a3dc-9f9a-8723-fdacb6a14e0a</URL></Attachment><AutoPublish enabled="false"/><Notification><Email/><URLPost enabled="true"/></Notification></CatalogUploadRequest></Request></cXML>

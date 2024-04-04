@@ -1,0 +1,6 @@
+<Combined xmlns:n0="http://sap.com/xi/ARBCIG1"
+          xmlns:nm="http://sap.com/xi/Ariba/Interfaces"><Payload><cXML payloadID="..."
+            timestamp="..."><Header><From><Credential domain="SystemID"><Identity>QKDCLNT521</Identity></Credential><Credential domain="NetworkID"><Identity>AN02005543705-T</Identity></Credential><Credential domain="EndPointID"><Identity>CIG</Identity></Credential></From><To><Credential domain="VendorID"><Identity>100000</Identity></Credential></To><Sender><Credential domain="NetworkID"><Identity>AN01000000087</Identity><SharedSecret /></Credential><UserAgent>Ariba Supplier</UserAgent></Sender></Header><Request><PaymentRemittanceStatusUpdateRequest><DocumentReference payloadID="42010AEE25251EEB8D965C3AC27B08F9" /><PaymentRemittanceStatus type="canceled"
+                                        paymentReferenceNumber="1500000918"><PaymentRemittanceStatusDetail code="01"
+                                                 description="Reversal in current period"
+                                                 xml:lang="en" /></PaymentRemittanceStatus></PaymentRemittanceStatusUpdateRequest></Request></cXML></Payload></Combined>
