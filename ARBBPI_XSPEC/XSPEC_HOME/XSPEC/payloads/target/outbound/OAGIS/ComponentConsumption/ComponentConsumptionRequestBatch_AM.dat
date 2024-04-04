@@ -1,9 +1,0 @@
-<cXML timestamp="..."
-    payloadID="..."><Header><From><Credential domain="NetworkID"><Identity>AN02003013907-T</Identity></Credential></From><To><Credential domain="NetworkID"><Identity>AN02003013906-T</Identity></Credential></To><Sender><Credential domain="NetworkId"><Identity>AN01000000087</Identity></Credential><UserAgent>Ariba Supplier</UserAgent></Sender></Header><Request deploymentMode="production"><ComponentConsumptionRequest><ComponentConsumptionHeader consumptionID="RIT-OAGIS.ComponentConsumptionRequest.01"
-        creationDate="2016-05-23T11:11:12-00:00"
-        operation="new"
-        referenceDocumentID="Ref Doc ID"><Extrinsic name="Message Type">Consumption</Extrinsic></ComponentConsumptionHeader><ComponentConsumptionPortion><OrderReference orderID=""><DocumentReference payloadID="CC7C861A6DA21E94D61F3D18121" /></OrderReference><ComponentConsumptionItem poLineNumber="000001"
-            quantity="2"><ItemID><SupplierPartID>Supplier Part ID - ICL</SupplierPartID><BuyerPartID>MS 9872234Part ID - ICL</BuyerPartID></ItemID><ComponentConsumptionDetails lineNumber="DR00001"
-                quantity="10"><Product><SupplierPartID>Supplier Part ID - DR</SupplierPartID><BuyerPartID>MS Part ID - DR</BuyerPartID><IdReference domain="PartType"
-                    identifier="PartType" /><IdReference domain="AssemblyPartID"
-                        identifier="AssemblyPartID" /></Product><UnitOfMeasure>EA</UnitOfMeasure><BuyerBatchID>BuyerBatchPartNumber</BuyerBatchID></ComponentConsumptionDetails></ComponentConsumptionItem></ComponentConsumptionPortion></ComponentConsumptionRequest></Request></cXML>

@@ -1,1 +1,0 @@
-<urn:PaymentAsyncResponsePullRequest xmlns:urn="urn:Ariba:Buyer:vsap" partition="prealm_140" variant="vrealm_140"><urn:Payment_PaymentNumberImport_Item><urn:item><urn:UniqueName>PAYRCT107INV367-367</urn:UniqueName><urn:ERPPayableNumber>5105611455</urn:ERPPayableNumber></urn:item></urn:Payment_PaymentNumberImport_Item></urn:PaymentAsyncResponsePullRequest>

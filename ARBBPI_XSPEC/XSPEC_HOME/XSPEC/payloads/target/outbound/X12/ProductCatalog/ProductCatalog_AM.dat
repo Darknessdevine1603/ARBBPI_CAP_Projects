@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><cXML payloadID="..."
-      timestamp="..."
-      version="..."
-      xml:lang="..."><Header><From><Credential domain="NetworkID"><Identity>AN02004417464-T</Identity></Credential></From><To><Credential domain="NetworkID"><Identity>AN02004417465-T</Identity></Credential></To><Sender><Credential domain="NetworkID"><Identity>AN01000000087</Identity><SharedSecret/></Credential><UserAgent>Ariba SN Buyer Adapter</UserAgent></Sender></Header><Request><CatalogUploadRequest operation="new"><CatalogName xml:lang="en">RIT_X12_PC_QA</CatalogName><Description xml:lang="en"> Catalog version 3.0 </Description><Attachment><URL>cid:200008430</URL></Attachment><AutoPublish enabled="false"/><Notification><Email/><URLPost enabled="true"/></Notification></CatalogUploadRequest></Request></cXML>

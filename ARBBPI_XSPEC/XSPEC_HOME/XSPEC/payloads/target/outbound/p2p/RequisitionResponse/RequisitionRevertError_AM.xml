@@ -1,5 +1,0 @@
-<RequisitionRevertBudgetToEarlierVersionExportReply xmlns:n0="urn:sap-com:document:sap:rfc:functions"
-    xmlns:tns="urn:sap-com:document:sap:soap:functions:mc-style"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-    partition="prealm_156"
-    variant="vrealm_156"><RequisitionError_RequisitionErrorImport_Item><item><Date>...</Date><ErrorClient>Q8JCLNT002</ErrorClient><ErrorMessage>...</ErrorMessage><ErrorNumber>082</ErrorNumber><ErrorSAPField>SAP</ErrorSAPField><ErrorSAPId>SAP</ErrorSAPId><ErrorSAPModule>SAP</ErrorSAPModule><ErrorSAPScreen>SAP</ErrorSAPScreen><ErrorSystem>Q8JCLNT002</ErrorSystem><Id>VRPR1931-V2</Id><NumInSet>1</NumInSet><Type>E</Type></item><item><Date>...</Date><ErrorClient>Q8JCLNT002</ErrorClient><ErrorMessage>...</ErrorMessage><ErrorNumber>003</ErrorNumber><ErrorSAPField>SAP</ErrorSAPField><ErrorSAPId>SAP</ErrorSAPId><ErrorSAPModule>SAP</ErrorSAPModule><ErrorSAPScreen>SAP</ErrorSAPScreen><ErrorSystem>Q8JCLNT002</ErrorSystem><Id>VRPR1931-V2</Id><NumInSet>2</NumInSet><Type>E</Type></item></RequisitionError_RequisitionErrorImport_Item></RequisitionRevertBudgetToEarlierVersionExportReply>

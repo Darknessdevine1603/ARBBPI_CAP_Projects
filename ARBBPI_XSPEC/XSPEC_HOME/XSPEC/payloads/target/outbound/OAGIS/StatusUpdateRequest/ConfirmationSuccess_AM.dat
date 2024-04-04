@@ -1,3 +1,0 @@
-<cXML timestamp="..."
-      payloadID=""><Header><From><Credential domain="NetworkID"><Identity>AN02003013907-T</Identity></Credential></From><To><Credential domain="NetworkID"><Identity>AN02003013906-T</Identity></Credential></To><Sender><Credential domain="NetworkId"><Identity>AN01000000087</Identity></Credential><UserAgent>Ariba Supplier</UserAgent></Sender></Header><Request deploymentMode="test"><StatusUpdateRequest><DocumentReference payloadID="AribaCIG_MS_INV_210930154610" /><Status code="200"
-                 text="accepted">Accepted</Status></StatusUpdateRequest></Request></cXML>

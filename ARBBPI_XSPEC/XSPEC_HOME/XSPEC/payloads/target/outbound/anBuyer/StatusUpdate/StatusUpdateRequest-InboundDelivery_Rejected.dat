@@ -1,5 +1,0 @@
-<Combined><Payload><cXML payloadID="..."
-            timestamp="..."><Header><From><Credential domain="SystemID"><Identity>QKDCLNT521</Identity></Credential><Credential domain="NetworkID"><Identity>AN02004404205-T</Identity></Credential><Credential domain="EndPointID"><Identity>CIG</Identity></Credential></From><To><Credential domain="VendorID"><Identity>100000</Identity></Credential></To><Sender><Credential domain="NetworkID"><Identity>AN01000000087</Identity></Credential><UserAgent>Ariba Supplier</UserAgent></Sender></Header><Request deploymentMode="test"><StatusUpdateRequest><DocumentReference payloadID="TC_4e521c45-80ff-46a9-84a5-5ba2a66df1ab" /><Status code="406"
-                       text="Not Acceptable"
-                       xml:lang="en">0001 inbound delivery/deliveries created (nos. 180002085 to 180002085)</Status><IntegrationStatus documentStatus="customerFailed"><IntegrationMessage isSuccessful="no"
-                                      type="AddOn" /></IntegrationStatus><Extrinsic name="ERPDocumentNo">180002085</Extrinsic></StatusUpdateRequest></Request></cXML></Payload></Combined>

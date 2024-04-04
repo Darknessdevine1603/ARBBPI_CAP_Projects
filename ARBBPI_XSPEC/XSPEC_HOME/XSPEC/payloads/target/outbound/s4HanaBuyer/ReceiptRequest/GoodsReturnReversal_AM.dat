@@ -1,8 +1,0 @@
-<cXML timestamp="..."
-    payloadID="..."><Header><From><Credential domain="NetworkID"><Identity /></Credential><Credential domain="EndPointID"><Identity>CIG</Identity></Credential></From><To><Credential domain="VendorID"><Identity>10300089</Identity></Credential></To><Sender><Credential domain="NetworkID"><Identity /></Credential><UserAgent>Ariba Supplier</UserAgent></Sender></Header><Request deploymentMode="test"><ReceiptRequest><ReceiptRequestHeader operation="new"
-        receiptDate="2020-05-20T12:00:00+0:00"
-        receiptID="5000001304"><ShipNoticeIDInfo shipNoticeID="DELIVNOTE101-2"
-            shipNoticeDate="2020-05-20T12:00:00+0:00" /></ReceiptRequestHeader><ReceiptOrder><ReceiptOrderInfo><OrderIDInfo orderID="4500003911" /></ReceiptOrderInfo><ReceiptItem quantity="-10"
-                type="returned"
-                receiptLineNumber="0001"><ReceiptItemReference lineNumber="00010"><ItemID><SupplierPartID /><BuyerPartID>TG10</BuyerPartID></ItemID><ShipNoticeIDInfo shipNoticeID="DELIVNOTE101-2"
-                    shipNoticeDate="2020-05-20T12:00:00+0:00" /></ReceiptItemReference><UnitRate><Money currency="" /><UnitOfMeasure /></UnitRate><ReceivedAmount><Money currency="" /></ReceivedAmount></ReceiptItem></ReceiptOrder><Total><Money currency="" /></Total></ReceiptRequest></Request></cXML>

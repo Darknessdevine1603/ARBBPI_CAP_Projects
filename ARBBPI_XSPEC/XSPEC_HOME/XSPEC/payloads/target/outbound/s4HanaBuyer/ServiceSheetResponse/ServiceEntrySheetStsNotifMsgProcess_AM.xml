@@ -1,7 +1,0 @@
-<cXML payloadID="..."
-    timestamp="..."><Header><From><Credential domain="SystemID"><Identity>0LOI36K</Identity></Credential><Credential domain="NetworkID"><Identity>0LOI36K</Identity></Credential><Credential domain="EndPointID"><Identity>CIG</Identity></Credential></From><To><Credential domain="VendorID"><Identity>10300089</Identity></Credential></To><Sender><Credential domain="NetworkID"><Identity /></Credential><UserAgent>Ariba Supplier</UserAgent></Sender></Header><Request deploymentMode="test"><StatusUpdateRequest><Status code="200 "
-        text="OK"
-        xml:lang="en" /><DocumentStatus type="processing"><DocumentInfo documentID="2608_SES"
-            documentType="ServiceEntryRequest"
-            documentDate="2020-01-20T12:00:00+05:30" /><Comments xml:lang="en"
-                type="SES_Workflow_Text">This is a Reject Comment and should be seen in Ariba</Comments></DocumentStatus><Extrinsic name="ERP_ENTRYSHEET">0000000351</Extrinsic></StatusUpdateRequest></Request></cXML>

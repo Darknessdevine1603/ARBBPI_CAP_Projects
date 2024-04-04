@@ -1,2 +1,0 @@
-
-    <n0:DocumentStatusUpdate xmlns:n0="http://sap.com/xi/ARBS4FND"><MessageHeader><CreationDateTime>2022-08-02T05:06:26+00:00</CreationDateTime><SenderBusinessSystemID>AN02005543705-T</SenderBusinessSystemID><RecipientBusinessSystemID>ER9CLNT002</RecipientBusinessSystemID></MessageHeader><DocStsUpdate><S4DocumentNo>4500115542</S4DocumentNo><DocumentType>Order</DocumentType><Supplier>100000</Supplier><Status>ACCEPTED</Status><Comment><Comment languageCode="EN">Accepted</Comment></Comment></DocStsUpdate></n0:DocumentStatusUpdate>

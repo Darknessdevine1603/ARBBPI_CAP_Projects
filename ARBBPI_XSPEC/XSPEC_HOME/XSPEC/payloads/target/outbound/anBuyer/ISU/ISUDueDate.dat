@@ -1,6 +1,0 @@
-<Combined><Payload><cXML payloadID="..."
-            timestamp="..."><Header><From><Credential domain="NetworkID"><Identity>AN02004404205-T</Identity></Credential><Credential domain="EndPointID"><Identity>CIG</Identity></Credential></From><To><Credential domain="VendorID"><Identity>10000</Identity></Credential></To><Sender><Credential domain="NetworkID"><Identity>AN01000000087</Identity><SharedSecret /></Credential><UserAgent>Ariba Supplier</UserAgent></Sender></Header><Request deploymentMode="test"><StatusUpdateRequest><Status code="200"
-                       text="OK"
-                       xml:lang="DE" /><InvoiceStatus type="processing"
-                              paymentNetDueDate="2021-06-16T12:00:00+05:30"><InvoiceIDInfo invoiceID="5105644368"
-                                 invoiceDate="2021-05-17T13:27:03+05:30" /><Comments xml:lang="DE">Test for Code Coverage</Comments><Comments xml:lang="DE" /></InvoiceStatus><Extrinsic name="Ariba.ERPInvoiceNumber">5105644368</Extrinsic></StatusUpdateRequest></Request></cXML></Payload></Combined>
