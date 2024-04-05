@@ -1,0 +1,5 @@
+<n0:BuyerStatusUpdateRequest xmlns:n0="http://sap.com/xi/ARBCIG1"><MessageHeader><partition>prealm_156</partition><variant>vrealm_156</variant></MessageHeader><DocumentType>ExternalServiceSheetImportAsyncRequest</DocumentType><DocumentDetails><AribaDocumentID/><ERPDocumentID>1000735974</ERPDocumentID><Status>REJECTED</Status><Message><Comment>Rejecting External SES: Another SES found with same SES ID: 1000735974
+
+Document Information:
+
+Order ID: 4500058103</Comment></Message></DocumentDetails></n0:BuyerStatusUpdateRequest>

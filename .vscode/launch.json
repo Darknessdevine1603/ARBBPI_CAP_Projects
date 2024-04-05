@@ -1,0 +1,39 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "XSPEC_Runner",
+      "request": "launch",
+      "mainClass": "sap.arbbpi_xspec_runner.XSPEC_Runner",
+      "projectName": "ARBBPI_XSPEC_RUNNER"
+    },
+    {
+      "name": "Run ARBBPI_XSPEC_RUNNER-1",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "sap.arbbpi_xspec_runner.XSPEC_Runner",
+      "projectName": "ARBBPI_XSPEC_RUNNER",
+      "preLaunchTask": "Build ARBBPI_XSPEC_RUNNER",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env1",
+      "args": [
+        "--spring.profiles.active=default",
+        "--port",
+        "4003"
+      ],
+      "env": {
+        "run.config": "{\"handlerId\":\"cap_run_config_handler_id\",\"runnableId\":\"{\\\"projectPath\\\":\\\"/home/user/projects/ARBBPI_XSPEC_RUNNER\\\",\\\"profileName\\\":\\\"default\\\"}\"}"
+      }
+    }
+  ]
+}

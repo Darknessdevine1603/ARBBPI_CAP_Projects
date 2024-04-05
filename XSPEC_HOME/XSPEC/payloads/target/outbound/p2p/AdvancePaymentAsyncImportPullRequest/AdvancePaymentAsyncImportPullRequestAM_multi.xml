@@ -1,0 +1,3 @@
+<urn:AdvancePaymentAsyncImportPullRequest xmlns:urn="urn:Ariba:Buyer:vsap"
+   partition="prealm_140"
+   variant="vrealm_140"><urn:AdvancePaymentAsyncImport_Item><urn:item><urn:UniqueName>SS830</urn:UniqueName><urn:AdvancePaymentAsyncImport_Item><urn:item><urn:objectName208>objectName209</urn:objectName208><urn:objectName212>objectName213</urn:objectName212></urn:item></urn:AdvancePaymentAsyncImport_Item></urn:item></urn:AdvancePaymentAsyncImport_Item></urn:AdvancePaymentAsyncImportPullRequest>

@@ -1,0 +1,6 @@
+<Combined><Payload><cXML payloadID="..."
+            timestamp="..."><Header><From><Credential domain="NetworkID"><Identity>AN02005543705-T</Identity></Credential><Credential domain="EndPointID"><Identity>CIG</Identity></Credential></From><To><Credential domain="VendorID"><Identity>100000</Identity></Credential></To><Sender><Credential domain="NetworkID"><Identity>AN01000000087</Identity></Credential><UserAgent>Ariba Supplier</UserAgent></Sender></Header><Request deploymentMode="test"><StatusUpdateRequest><Status code="200"
+                       text="textOK"
+                       xml:lang="DE" /><DocumentStatus type="rejected"><DocumentInfo documentID="SES_4444"
+                                documentType="ServiceEntryRequest"
+                                documentDate="2020-08-10T14:09:10+05:30" /><Comments xml:lang="" /></DocumentStatus><Extrinsic name="ERP_ENTRYSHEET">100000739</Extrinsic></StatusUpdateRequest></Request></cXML></Payload></Combined>

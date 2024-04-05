@@ -1,0 +1,6 @@
+<Characteristic xmlns="ch"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageHeader><MessageID>0000000000137237</MessageID><CreationDateTime>2021-07-09T11:33:06</CreationDateTime><SenderBusinessSystemID>QDRCLNT520</SenderBusinessSystemID><RecipientBusinessSystemID>ARIBA</RecipientBusinessSystemID><ExternalID>QDRCLNT520</ExternalID></MessageHeader><ID>XSPEC01</ID><Status>1</Status><Format><DataType>NUM</DataType><Length>10</Length><NoOfDecimalPlaces>9</NoOfDecimalPlaces><UnitOfMeasure>BX</UnitOfMeasure><CaseSensitive>false</CaseSensitive></Format><ValueAssignment SingleValue="false"
+        Restrictable="false"
+        NegativeAllowed="false"
+        IntervalAllowed="false"
+        EntryRequired="false" /><Descriptions><Description languageCode="EN">XSPEC01</Description></Descriptions><Values><PossibleValue Default="false"><Value>ATWRT</Value></PossibleValue><PossibleValue Default="false"><FloatingPointFrom>10.200000000</FloatingPointFrom><FloatingPointTo>10.000000000</FloatingPointTo></PossibleValue><PossibleValue Default="false"><FloatingPointFrom>10.300000000</FloatingPointFrom><FloatingPointTo>10.000000000</FloatingPointTo></PossibleValue></Values></Characteristic>

@@ -1,0 +1,285 @@
+<ProcessPurchaseOrder releaseID="9.2">
+    <ApplicationArea>
+        <Sender>
+            <LogicalID>081466849T</LogicalID>
+            <ComponentID>PO</ComponentID>
+            <TaskID>PurchaseOrder</TaskID>
+            <ReferenceID>MS</ReferenceID>
+        </Sender>
+        <CreationDateTime>2017-01-30T11:35:48-07:00</CreationDateTime>
+        <BODID>test_xCBL_1226</BODID>
+        <UserArea>
+            <DUNSID schemeID="ReceiverKey">658731930T</DUNSID>
+        </UserArea>
+    </ApplicationArea>
+    <DataArea>
+        <Process>
+            <ActionCriteria>
+                <ActionExpression actionCode="Add">Create</ActionExpression>
+                <ChangeStatus>
+                    <Code name="OrderVersion"/>
+                    <Description type="Priority">Normal</Description>
+                </ChangeStatus>
+            </ActionCriteria>
+        </Process>
+        <PurchaseOrder>
+            <PurchaseOrderHeader>
+                <DocumentReference>
+                    <DocumentID agencyRole="Purchase Order">
+                        <ID>RIT-OAGIS.PO.01</ID>
+                    </DocumentID>
+                    <Description type="Action">Request</Description>
+                    <Status>
+                        <Code name="DateType">PODate</Code>
+                        <EffectiveDateTime>2016-04-20T16:18:16+05:30</EffectiveDateTime>
+                    </Status>
+                    <LineNumber schemeName="DocumentLineNumber">NA</LineNumber>
+                    <OperationReference>
+                        <Status>
+                            <Code name="OrderType"/>
+                        </Status>
+                        <Status>
+                            <Code name="Class">SS</Code>
+                        </Status>
+                        <Status>
+                            <Code name="CountryOfOrigin"/>
+                        </Status>
+                    </OperationReference>
+                    <Item>
+                        <Specification type="HeaderText">
+                            <UserArea>
+                                <Status>
+                                    <Code name="TextTypeCode">HeaderComments</Code>
+                                    <Description type="TextDetail">
+                                        
+                                    </Description>
+                                </Status>
+                            </UserArea>
+                        </Specification>
+                    </Item>
+                </DocumentReference>
+                <Party role="SAPVendor">
+                    <PartyIDs>
+                        <ID>0000100849</ID>
+                    </PartyIDs>
+                    <Name>Test SR Supplier</Name>
+                    <Location>
+                        <Name>Test SR Supplier</Name>
+                        <Address type="Physical">
+                            <LineOne>3-278 Nandi Durga Road</LineOne>
+                            <CityName>Bangalore</CityName>
+                            <CountryCode>US</CountryCode>
+                            <PostalCode>56003</PostalCode>
+                        </Address>
+                    </Location>
+                    <Contact type="Phone">
+                        <Communication>
+                            <CountryDialing/>
+                            <AreaDialing/>
+                            <DialNumber>1234567888,9980648548</DialNumber>
+                        </Communication>
+                    </Contact>
+                    <Contact type="FAX">
+                        <Communication>
+                            <CountryDialing/>
+                            <AreaDialing/>
+                            <DialNumber>2356899823</DialNumber>
+                        </Communication>
+                    </Contact>
+                </Party>
+                <CustomerParty>
+                    <PartyIDs>
+                        <ID/>
+                    </PartyIDs>
+                </CustomerParty>
+                <SupplierParty>
+                    <PartyIDs>
+                        <ID>0000100849</ID>
+                    </PartyIDs>
+                    <Name>Test SR Supplier</Name>
+                    <Location>
+                        <Name>Test SR Supplier</Name>
+                        <Address type="Physical">
+                            <LineOne>3-278 Nandi Durga Road</LineOne>
+                            <CityName>Bangalore</CityName>
+                            <CountryCode>US</CountryCode>
+                            <PostalCode>56003</PostalCode>
+                        </Address>
+                    </Location>
+                    <Contact type="Phone">
+                        <Communication>
+                            <CountryDialing/>
+                            <AreaDialing/>
+                            <DialNumber>1234567888,9980648548</DialNumber>
+                        </Communication>
+                    </Contact>
+                    <Contact type="FAX">
+                        <Communication>
+                            <CountryDialing/>
+                            <AreaDialing/>
+                            <DialNumber>2356899823</DialNumber>
+                        </Communication>
+                    </Contact>
+                </SupplierParty>
+                <ShipToParty>
+                    <PartyIDs>
+                        <ID/>
+                    </PartyIDs>
+                    <Name>New York</Name>
+                    <Location>
+                        <Name>New York</Name>
+                        <Address type="Physical">
+                            <LineOne>691 Broadway</LineOne>
+                            <CityName>NEW YORK</CityName>
+                            <CountrySubDivisionCode>NY</CountrySubDivisionCode>
+                            <CountryCode>US</CountryCode>
+                            <PostalCode>10001</PostalCode>
+                        </Address>
+                    </Location>
+                    <Contact type="Phone">
+                        <Communication>
+                            <CountryDialing/>
+                            <AreaDialing/>
+                            <DialNumber>001-9287-34571</DialNumber>
+                        </Communication>
+                    </Contact>
+                    <Contact type="FAX">
+                        <Communication>
+                            <CountryDialing/>
+                            <AreaDialing/>
+                            <DialNumber>001-9287-34573</DialNumber>
+                        </Communication>
+                    </Contact>
+                    <UserArea>
+                        <Status>
+                            <Code name="TransportationZone"/>
+                        </Status>
+                        <Status>
+                            <Code name="cRADCRSDIndicator"/>
+                        </Status>
+                    </UserArea>
+                </ShipToParty>
+                <BillToParty>
+                    <PartyIDs>
+                        <ID>3000</ID>
+                    </PartyIDs>
+                    <Name>IDES US INC</Name>
+                    <Location>
+                        <Name>IDES US INC</Name>
+                        <Address type="Physical">
+                            <LineOne>1230 Lincoln Avenue</LineOne>
+                            <CityName>NEW YORK</CityName>
+                            <CountrySubDivisionCode>NY</CountrySubDivisionCode>
+                            <CountryCode>US</CountryCode>
+                            <PostalCode>10019</PostalCode>
+                        </Address>
+                    </Location>
+                    <Contact type="Phone">
+                        <Communication>
+                            <CountryDialing/>
+                            <AreaDialing/>
+                            <DialNumber>212-345-0983</DialNumber>
+                        </Communication>
+                    </Contact>
+                    <Contact type="FAX">
+                        <Communication>
+                            <CountryDialing/>
+                            <AreaDialing/>
+                            <DialNumber>212-345-5693</DialNumber>
+                        </Communication>
+                    </Contact>
+                </BillToParty>
+                <CarrierParty>
+                    <PartyIDs>
+                        <ID/>
+                    </PartyIDs>
+                </CarrierParty>
+                <Payment>
+                    <Amount currencyID="USD">7500.00</Amount>
+                    <UserArea>
+                        <Type name="PriceType">POTotal</Type>
+                    </UserArea>
+                </Payment>
+                <OrderDateTime>2016-04-20T16:18:16+05:30</OrderDateTime>
+            </PurchaseOrderHeader>
+            <PurchaseOrderLine>
+                <LineNumber>00010</LineNumber>
+                <Description languageID="EN">Test_SR_Material</Description>
+                <DocumentReference>
+                    <Status>
+                        <Code listID="002" name="DateType">DeliveryDate</Code>
+                        <EffectiveDateTime>2016-04-25T00:00:00+05:30</EffectiveDateTime>
+                    </Status>
+                    <Status>
+                        <Code name="ItemType">item</Code>
+                    </Status>
+                    <ItemIDs>
+                        <ItemID agencyRole="MSPartNumber">
+                            <ID schemeID="BP">000000000000000146</ID>
+                            <RevisionID>NA</RevisionID>
+                        </ItemID>
+                        <ItemID agencyRole="VendorPartNumber">
+                            <ID schemeID="PI">Non Catalog Item</ID>
+                            <RevisionID>NA</RevisionID>
+                        </ItemID>
+                    </ItemIDs>
+                    <OperationReference/>
+                </DocumentReference>
+                <Status>
+                    <Code listID="EA" name="UOM">EA</Code>
+                </Status>
+                <UnitPrice>
+                    <Amount currencyID="">15</Amount>
+                    <PerQuantity unitCode="EA">1</PerQuantity>
+                    <Code name="PriceType">UnitPrice</Code>
+                </UnitPrice>
+                <TransportationTerm>
+                    <IncotermsCode/>
+                    <PlaceOfOwnershipTransferLocation>
+                        <Name/>
+                    </PlaceOfOwnershipTransferLocation>
+                    <FreightTermCode name="ShipmentTerms"/>
+                    <UserArea/>
+                </TransportationTerm>
+                <OpenQuantity unitCode="Each">250.000</OpenQuantity>
+            </PurchaseOrderLine>
+            <PurchaseOrderLine>
+                <LineNumber>00020</LineNumber>
+                <Description languageID="EN">PO with multiple items</Description>
+                <DocumentReference>
+                    <Status>
+                        <Code listID="002" name="DateType">DeliveryDate</Code>
+                        <EffectiveDateTime>2016-04-20T00:00:00+05:30</EffectiveDateTime>
+                    </Status>
+                    <Status>
+                        <Code name="ItemType">item</Code>
+                    </Status>
+                    <ItemIDs>
+                        <ItemID agencyRole="VendorPartNumber">
+                            <ID schemeID="PI">Non Catalog Item</ID>
+                            <RevisionID>NA</RevisionID>
+                        </ItemID>
+                    </ItemIDs>
+                    <OperationReference/>
+                </DocumentReference>
+                <Status>
+                    <Code listID="KG" name="UOM">KG</Code>
+                </Status>
+                <UnitPrice>
+                    <Amount currencyID="">25</Amount>
+                    <PerQuantity unitCode="KG">1</PerQuantity>
+                    <Code name="PriceType">UnitPrice</Code>
+                </UnitPrice>
+                <TransportationTerm>
+                    <IncotermsCode/>
+                    <PlaceOfOwnershipTransferLocation>
+                        <Name/>
+                    </PlaceOfOwnershipTransferLocation>
+                    <FreightTermCode name="ShipmentTerms"/>
+                    <UserArea/>
+                </TransportationTerm>
+                <OpenQuantity unitCode="Each">150.000</OpenQuantity>
+            </PurchaseOrderLine>
+        </PurchaseOrder>
+    </DataArea>
+</ProcessPurchaseOrder>

@@ -1,0 +1,1 @@
+<urn:PurchaseOrderERPHeaderStatusAsyncImportRequest xmlns:urn="urn:Ariba:Buyer:vsap" partition="" variant=""><urn:ERPOrder_PurchOrdHeaderStatusPull_Item><urn:item><urn:UniqueName>EP418</urn:UniqueName><urn:ERPAllowCancel>false</urn:ERPAllowCancel></urn:item></urn:ERPOrder_PurchOrdHeaderStatusPull_Item></urn:PurchaseOrderERPHeaderStatusAsyncImportRequest>
